@@ -3,7 +3,7 @@ FROM oven/bun
 WORKDIR /app
 
 COPY package.json .
-COPY bun.lockb .
+COPY bun.lock .
 
 # Install required fonts and tools
 RUN apt-get update && apt-get install -y \
